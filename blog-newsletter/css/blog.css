@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(pink,rgb(253, 208, 240),pink);
+    max-width: 100%;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(175, 28, 131),rgb(248, 178, 231), white);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid rgb(145, 17, 117);
+    
+    
+}
+
+h1{
+    font-weight: bold;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+li{
+    margin-left: 40px;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+section{
+    
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    border-bottom: .8px solid rgb(145, 17, 117);;
+}
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2,h3{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+section article div{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#formulario,.cog-heading{
+    text-align: center !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+
+}
+
+#form{
+    box-sizing: border-box !important;
+    align-items: center !important;
+    width: 500px !important;
+    max-height: 600px !important;
+    
+}
+
+.cog-form__content{
+    box-sizing: border-box !important;
+    padding: 20px !important;
+    background-image: linear-gradient(pink,rgb(253, 208, 240),pink) !important;
+    
+}
+
+#form-article{
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    height: 540px;
+    margin-bottom: 50px;
+    width: auto !important;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to top, rgb(175, 28, 131),rgb(248, 178, 231), white); ;
+    display: block;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+
+
+@media (max-width:320px){
+
+    #formulario,.cog-heading,.form-article,#form,.cog-form__content{
+        width: 100% !important;
+        height: auto !important;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    section,article,div{
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+    }
+
+    #cabecalho{
+        height: 100px;
+    }
+
+}
+
